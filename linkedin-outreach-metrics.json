@@ -1,9 +1,9 @@
 {
   "schema": "agentstructure.linkedin_outreach.v1",
-  "generated_at": "2026-10-06T14:45:15.128738-03:00",
+  "generated_at": "2026-10-06T14:55:25.978778-03:00",
   "timezone": "America/Sao_Paulo",
   "totals": {
-    "unique_contacts": 75,
+    "unique_contacts": 66,
     "dm_sent": 7,
     "blank_connects_sent": 54,
     "skips": 7,
@@ -98,9 +98,9 @@
     "product_rename": "GovContract Scout",
     "notes": [
       "Aaron/Ari/Monte may be +3 gov Pending uncounted",
-      "Rhea Booleans too complex for free LI search — simplified keywords worked"
+      "Rhea Booleans too complex for free LI search \u2014 simplified keywords worked"
     ],
-    "next": "Accept-check Pending across products → Tess-style DMs with product-true names (GovContract Scout); ≤10/day"
+    "next": "Accept-check Pending across products \u2192 Tess-style DMs with product-true names (GovContract Scout); \u226410/day"
   },
   "rules": {
     "max_li_dms_per_day_per_account": 10,
@@ -120,6 +120,12 @@
     "host_urls": {
       "gov": "https://govcontractfinder.grok.me",
       "hub": "https://agentstructure.ai"
+    },
+    "publish": {
+      "repo": "agentstructure/linkedin-dashboard",
+      "metrics_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-metrics.json",
+      "feed_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-feed.json",
+      "contacts_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-contacts.csv"
     }
   }
 }
