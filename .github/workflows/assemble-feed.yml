@@ -1,0 +1,31 @@
+name: Assemble feed
+on:
+  push:
+    paths:
+      - 'parts/feed.part*.b64'
+      - '.github/workflows/assemble-feed.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble linkedin-outreach-feed.json
+        run: |
+          python3 - <<'PY'
+          import base64, pathlib
+          parts = sorted(pathlib.Path('parts').glob('feed.part*.b64'))
+          data = b''.join(base64.b64decode(p.read_text().strip()) for p in parts)
+          pathlib.Path('linkedin-outreach-feed.json').write_bytes(data)
+          print('wrote', len(data), 'bytes from', len(parts), 'parts')
+          PY
+      - name: Commit assembled feed
+        run: |
+          git config user.name "AgentStructure.AI"
+          git config user.email "support@agentstructure.ai"
+          git add linkedin-outreach-feed.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update linkedin-outreach-feed.json for Grok dashboard live feed"
+          git push
