@@ -1,0 +1,2209 @@
+{
+  "schema": "agentstructure.linkedin_outreach.v1",
+  "owner": "Reach",
+  "account": "Sean Morgan personal LinkedIn",
+  "company": "Agent Structure LLC",
+  "generated_at": "2026-10-06T14:55:25.978778-03:00",
+  "timezone": "America/Sao_Paulo",
+  "rules": {
+    "max_li_dms_per_day_per_account": 10,
+    "blank_connect_before_dm": true,
+    "skip_products": [
+      "c2c"
+    ],
+    "product_display_names": {
+      "gov": "GovContract Scout",
+      "pps": "Political Prediction Signals",
+      "op": "Opinion Pulse",
+      "cath": "Catholic Reminders",
+      "sec": "SEC Stock Signals",
+      "rr": "RoleRank",
+      "c2c": "Comment2Chat"
+    },
+    "host_urls": {
+      "gov": "https://govcontractfinder.grok.me",
+      "hub": "https://agentstructure.ai"
+    },
+    "publish": {
+      "repo": "agentstructure/linkedin-dashboard",
+      "metrics_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-metrics.json",
+      "feed_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-feed.json",
+      "contacts_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-contacts.csv"
+    }
+  },
+  "latest_day": {
+    "date": "2026-10-06",
+    "scope": "all apps",
+    "dms_sent": [
+      "Yigit Guney",
+      "Gabe Wander",
+      "Madina Shaik"
+    ],
+    "dm_count": 3,
+    "dm_budget_remaining": 7,
+    "blank_connects": {
+      "gov_wave2_confirmed": 9,
+      "mixed_rr_gov": 15,
+      "pps_cath_op_sec": 16,
+      "by_product_last_wave": {
+        "pps": 4,
+        "cath": 4,
+        "op": 4,
+        "sec": 4
+      }
+    },
+    "product_rename": "GovContract Scout",
+    "notes": [
+      "Aaron/Ari/Monte may be +3 gov Pending uncounted",
+      "Rhea Booleans too complex for free LI search \u2014 simplified keywords worked"
+    ],
+    "next": "Accept-check Pending across products \u2192 Tess-style DMs with product-true names (GovContract Scout); \u226410/day"
+  },
+  "daily_totals": [
+    {
+      "date": "2026-10-02",
+      "dms": 2,
+      "blank_connects": 0,
+      "accepts": 0,
+      "skips": 0,
+      "by_product": {
+        "gov": {
+          "dms": 2,
+          "blank_connects": 0
+        }
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "dms": 2,
+      "blank_connects": 14,
+      "accepts": 0,
+      "skips": 1,
+      "by_product": {
+        "gov": {
+          "dms": 2,
+          "blank_connects": 14
+        }
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "dms": 3,
+      "blank_connects": 40,
+      "accepts": 0,
+      "skips": 6,
+      "by_product": {
+        "rr": {
+          "dms": 0,
+          "blank_connects": 3
+        },
+        "gov": {
+          "dms": 3,
+          "blank_connects": 21
+        },
+        "pps": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "cath": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "op": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "sec": {
+          "dms": 0,
+          "blank_connects": 4
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Eileen Springer",
+      "url": "https://www.linkedin.com/in/eileen-springer/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Julie Jelonek, SHRM-SCP",
+      "url": "https://www.linkedin.com/in/juliejelonek/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Nancy Friend-Schnurpel, SPHR, ACC",
+      "url": "https://www.linkedin.com/in/nancy-friend-schnurpel/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Norm Andersson",
+      "url": "https://www.linkedin.com/in/norm-andersson",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Craig Mount",
+      "url": "https://www.linkedin.com/in/craigmount",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Sia Floyd",
+      "url": "https://www.linkedin.com/in/sia-floyd-anteantechnology",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Janis Garcia Keating",
+      "url": "https://www.linkedin.com/in/janis-garcia-keating-pmp-pmi-acp-safe-sa-9542b71",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Barbara A. Gray",
+      "url": "https://www.linkedin.com/in/barbara-gray-0357595",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Joseph Anderson",
+      "url": "https://www.linkedin.com/in/joseph-anderson-mba-ms-csm-mism-4a89293b",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Rodney Fuller",
+      "url": "https://www.linkedin.com/in/rodney-fuller-cissp-pmp-49b1018",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Nicholas Sterba",
+      "url": "https://www.linkedin.com/in/nicholas-sterba-036199b5",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Sarah Petit",
+      "url": "https://www.linkedin.com/in/sarah-petit-91534225",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Aisha Niazi",
+      "url": "https://www.linkedin.com/in/aishaniazi",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Adriana Iglesias",
+      "url": "https://www.linkedin.com/in/adriana-iglesias-9884297",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Abhi Nagaraja",
+      "url": "https://www.linkedin.com/in/abhi-nagaraja-5b5118a3",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "pps",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Christopher Leatherman",
+      "url": "https://www.linkedin.com/in/christopher-leatherman/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "pps",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Florian Moser",
+      "url": "https://www.linkedin.com/in/moser-florian/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "pps",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Alexander Hirsch",
+      "url": "https://www.linkedin.com/in/alexander-hirsch-752218178/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "pps",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Anthony Inzalaco",
+      "url": "https://www.linkedin.com/in/anthony-inzalaco/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "cath",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Matthew Thai",
+      "url": "https://www.linkedin.com/in/matthew-thai/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "cath",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Bob Gallagher",
+      "url": "https://www.linkedin.com/in/bob-gallagher-097a4623/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "cath",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Melissa De Jesus",
+      "url": "https://www.linkedin.com/in/melissa-dejesus/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "cath",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Gene Garcia",
+      "url": "https://www.linkedin.com/in/gene-garcia-5078559/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "op",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Andy F.",
+      "url": "https://www.linkedin.com/in/andytflores/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "op",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "St Cyr Luttmer",
+      "url": "https://www.linkedin.com/in/stcyrluttmer/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "op",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Mari Kitamura",
+      "url": "https://www.linkedin.com/in/marikitamura/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "op",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Jana P.",
+      "url": "https://www.linkedin.com/in/janaparshikova/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "sec",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Tom Rudovsky",
+      "url": "https://www.linkedin.com/in/tom-rudovsky-9aa1691a0/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "sec",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Jon M Kjartansson",
+      "url": "https://www.linkedin.com/in/jonkjartansson/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "sec",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Yi Liu, CFA",
+      "url": "https://www.linkedin.com/in/yi-liu-cfa-a6817416/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "sec",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Rinkesh Dubey, CFA",
+      "url": "https://www.linkedin.com/in/rinkesh-dubey-cfa-25687a/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Kathy Chao",
+      "url": "https://www.linkedin.com/in/kathykchao",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Rupinder Yadav",
+      "url": "https://www.linkedin.com/in/rupinder-yadav-1a28551aa",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Amit Yadav",
+      "url": "https://www.linkedin.com/in/amit-yadav-techsur",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "William Dandridge",
+      "url": "https://www.linkedin.com/in/william-dandridge",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Daniel Gavilan",
+      "url": "https://www.linkedin.com/in/danielgavilan786",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Gisela Ghani",
+      "url": "https://www.linkedin.com/in/gisela-ghani-2bb8845",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Matthew Grays",
+      "url": "https://www.linkedin.com/in/matthew-grays-14637053",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Al Sowers",
+      "url": "https://www.linkedin.com/in/al-sowers",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Aubrey Hinds",
+      "url": "https://www.linkedin.com/in/aubrey-hinds-275a914",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Gabe Wander",
+      "url": "https://www.linkedin.com/in/gabewander",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Madina Shaik",
+      "url": "https://www.linkedin.com/in/madina-shaik",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Jeri Prophet",
+      "url": "https://www.linkedin.com/in/jeriprophet",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "J \u201cTech\u201d Risi III",
+      "url": "https://www.linkedin.com/in/joserisi",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Monalisha Mishra",
+      "url": "https://www.linkedin.com/in/monalishamishra",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Sarah Fahden",
+      "url": "https://www.linkedin.com/in/sarahfahden",
+      "reason": "email required to connect (Send without a note disabled)",
+      "source": "gov-blank-connect-results-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Dane Dungee",
+      "url": "https://www.linkedin.com/in/danedungee",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Renee A. McClennon",
+      "url": "https://www.linkedin.com/in/renee-mcclennon",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "David Whitt",
+      "url": "https://www.linkedin.com/in/mrdavidrwhitt",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Carlos Cintron",
+      "url": "https://www.linkedin.com/in/ccintron",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Helleni Moon",
+      "url": "https://www.linkedin.com/in/hellenimoon",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Craig Wilson",
+      "url": "https://www.linkedin.com/in/craig-wilson-004319a3",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Phill Rinaldo",
+      "url": "https://www.linkedin.com/in/phillrinaldo",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Sheena Parker",
+      "url": "https://www.linkedin.com/in/sheenaparker",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Clydea Perkins-Allaire",
+      "url": "https://www.linkedin.com/in/allairesconsulting",
+      "title": null,
+      "company": null,
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Eronica Dew",
+      "url": "https://www.linkedin.com/in/eronicadew",
+      "reason": "No Connect option (3rd degree; only Follow/Message in More menu)",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Aaron Moak",
+      "url": "https://www.linkedin.com/in/aaron-moak-96bb1634",
+      "reason": "Already Pending when re-opened (possibly sent by my script run that timed out right after clicking Send; not confirmed)",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Ari Perez",
+      "url": "https://www.linkedin.com/in/ari-perez",
+      "reason": "Already Pending when opened",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Monte Newton",
+      "url": "https://www.linkedin.com/in/monte-newton-061a20360",
+      "reason": "Already Pending when opened",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Nichelle Early",
+      "url": "https://www.linkedin.com/in/nichelleearly",
+      "reason": "Email required to connect (Send without a note unavailable); skipped without entering email",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "skipped",
+      "contact": "Brittany Wells",
+      "url": "https://www.linkedin.com/in/brittanywells",
+      "reason": "Profile URL redirected to LinkedIn 404 (not found)",
+      "source": "gov-blank-connect-results-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-02",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Daniel Woosley",
+      "source": "gov-day-summary-2026-10-02.json"
+    },
+    {
+      "date": "2026-10-02",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Kathleen Hornik",
+      "source": "gov-day-summary-2026-10-02.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Hannah Thomas",
+      "source": "gov-day-summary-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-05",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Eric Chan",
+      "source": "gov-day-summary-2026-10-05.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Yigit Guney",
+      "source": "gov-day-summary-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Gabe Wander",
+      "source": "gov-day-summary-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "dm_sent",
+      "contact": "Madina Shaik",
+      "source": "gov-day-summary-2026-10-06.json"
+    }
+  ],
+  "last_wave_prospects": {
+    "date": "2026-10-06",
+    "prospects": [
+      {
+        "name": "Christopher Leatherman",
+        "url": "https://www.linkedin.com/in/christopher-leatherman/",
+        "product": "pps",
+        "hook": "Politics @polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Florian Moser",
+        "url": "https://www.linkedin.com/in/moser-florian/",
+        "product": "pps",
+        "hook": "Market Analyst at Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Alexander Hirsch",
+        "url": "https://www.linkedin.com/in/alexander-hirsch-752218178/",
+        "product": "pps",
+        "hook": "Markets Analyst at Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Anthony Inzalaco",
+        "url": "https://www.linkedin.com/in/anthony-inzalaco/",
+        "product": "pps",
+        "hook": "Sports Markets Analyst - Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Matthew Thai",
+        "url": "https://www.linkedin.com/in/matthew-thai/",
+        "product": "cath",
+        "hook": "Director of Liturgy at St. Faustina Catholic Church",
+        "status": "Pending"
+      },
+      {
+        "name": "Bob Gallagher",
+        "url": "https://www.linkedin.com/in/bob-gallagher-097a4623/",
+        "product": "cath",
+        "hook": "Director of Liturgy and Music at Catholic Community of Waukesha",
+        "status": "Pending"
+      },
+      {
+        "name": "Melissa De Jesus",
+        "url": "https://www.linkedin.com/in/melissa-dejesus/",
+        "product": "cath",
+        "hook": "Director of Liturgy, Music & Communications at Diocese of Las Vegas",
+        "status": "Pending"
+      },
+      {
+        "name": "Gene Garcia",
+        "url": "https://www.linkedin.com/in/gene-garcia-5078559/",
+        "product": "cath",
+        "hook": "Director of Music and Liturgy at Archdiocese of Chicago",
+        "status": "Pending"
+      },
+      {
+        "name": "Andy F.",
+        "url": "https://www.linkedin.com/in/andytflores/",
+        "product": "op",
+        "hook": "Senior Research Analyst at Brandwatch | Consumer Insights",
+        "status": "Pending"
+      },
+      {
+        "name": "St Cyr Luttmer",
+        "url": "https://www.linkedin.com/in/stcyrluttmer/",
+        "product": "op",
+        "hook": "Social Media | Social Listening | Digital Analysis | Consumer Research",
+        "status": "Pending"
+      },
+      {
+        "name": "Mari Kitamura",
+        "url": "https://www.linkedin.com/in/marikitamura/",
+        "product": "op",
+        "hook": "Senior Technical Analyst @ Brandwatch | Social Listening",
+        "status": "Pending"
+      },
+      {
+        "name": "Jana P.",
+        "url": "https://www.linkedin.com/in/janaparshikova/",
+        "product": "op",
+        "hook": "Consumer Intelligence & Social Media Strategy @ Brandwatch",
+        "status": "Pending"
+      },
+      {
+        "name": "Tom Rudovsky",
+        "url": "https://www.linkedin.com/in/tom-rudovsky-9aa1691a0/",
+        "product": "sec",
+        "hook": "SEC EDGAR Analyst",
+        "status": "Pending"
+      },
+      {
+        "name": "Jon M Kjartansson",
+        "url": "https://www.linkedin.com/in/jonkjartansson/",
+        "product": "sec",
+        "hook": "Quantitative Equity Researcher @ YipitData | Alternative Data",
+        "status": "Pending"
+      },
+      {
+        "name": "Yi Liu, CFA",
+        "url": "https://www.linkedin.com/in/yi-liu-cfa-a6817416/",
+        "product": "sec",
+        "hook": "Quantitative Researcher | Signal Integration | Systematic Equity",
+        "status": "Pending"
+      },
+      {
+        "name": "Rinkesh Dubey, CFA",
+        "url": "https://www.linkedin.com/in/rinkesh-dubey-cfa-25687a/",
+        "product": "sec",
+        "hook": "Quantitative Analyst at Stone Harbor Investment Partners",
+        "status": "Pending"
+      }
+    ]
+  },
+  "last_wave_results": {
+    "date": "2026-10-06",
+    "sent": [
+      {
+        "name": "Christopher Leatherman",
+        "url": "https://www.linkedin.com/in/christopher-leatherman/",
+        "product": "pps",
+        "hook": "Politics @polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Florian Moser",
+        "url": "https://www.linkedin.com/in/moser-florian/",
+        "product": "pps",
+        "hook": "Market Analyst at Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Alexander Hirsch",
+        "url": "https://www.linkedin.com/in/alexander-hirsch-752218178/",
+        "product": "pps",
+        "hook": "Markets Analyst at Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Anthony Inzalaco",
+        "url": "https://www.linkedin.com/in/anthony-inzalaco/",
+        "product": "pps",
+        "hook": "Sports Markets Analyst - Polymarket",
+        "status": "Pending"
+      },
+      {
+        "name": "Matthew Thai",
+        "url": "https://www.linkedin.com/in/matthew-thai/",
+        "product": "cath",
+        "hook": "Director of Liturgy at St. Faustina Catholic Church",
+        "status": "Pending"
+      },
+      {
+        "name": "Bob Gallagher",
+        "url": "https://www.linkedin.com/in/bob-gallagher-097a4623/",
+        "product": "cath",
+        "hook": "Director of Liturgy and Music at Catholic Community of Waukesha",
+        "status": "Pending"
+      },
+      {
+        "name": "Melissa De Jesus",
+        "url": "https://www.linkedin.com/in/melissa-dejesus/",
+        "product": "cath",
+        "hook": "Director of Liturgy, Music & Communications at Diocese of Las Vegas",
+        "status": "Pending"
+      },
+      {
+        "name": "Gene Garcia",
+        "url": "https://www.linkedin.com/in/gene-garcia-5078559/",
+        "product": "cath",
+        "hook": "Director of Music and Liturgy at Archdiocese of Chicago",
+        "status": "Pending"
+      },
+      {
+        "name": "Andy F.",
+        "url": "https://www.linkedin.com/in/andytflores/",
+        "product": "op",
+        "hook": "Senior Research Analyst at Brandwatch | Consumer Insights",
+        "status": "Pending"
+      },
+      {
+        "name": "St Cyr Luttmer",
+        "url": "https://www.linkedin.com/in/stcyrluttmer/",
+        "product": "op",
+        "hook": "Social Media | Social Listening | Digital Analysis | Consumer Research",
+        "status": "Pending"
+      },
+      {
+        "name": "Mari Kitamura",
+        "url": "https://www.linkedin.com/in/marikitamura/",
+        "product": "op",
+        "hook": "Senior Technical Analyst @ Brandwatch | Social Listening",
+        "status": "Pending"
+      },
+      {
+        "name": "Jana P.",
+        "url": "https://www.linkedin.com/in/janaparshikova/",
+        "product": "op",
+        "hook": "Consumer Intelligence & Social Media Strategy @ Brandwatch",
+        "status": "Pending"
+      },
+      {
+        "name": "Tom Rudovsky",
+        "url": "https://www.linkedin.com/in/tom-rudovsky-9aa1691a0/",
+        "product": "sec",
+        "hook": "SEC EDGAR Analyst",
+        "status": "Pending"
+      },
+      {
+        "name": "Jon M Kjartansson",
+        "url": "https://www.linkedin.com/in/jonkjartansson/",
+        "product": "sec",
+        "hook": "Quantitative Equity Researcher @ YipitData | Alternative Data",
+        "status": "Pending"
+      },
+      {
+        "name": "Yi Liu, CFA",
+        "url": "https://www.linkedin.com/in/yi-liu-cfa-a6817416/",
+        "product": "sec",
+        "hook": "Quantitative Researcher | Signal Integration | Systematic Equity",
+        "status": "Pending"
+      },
+      {
+        "name": "Rinkesh Dubey, CFA",
+        "url": "https://www.linkedin.com/in/rinkesh-dubey-cfa-25687a/",
+        "product": "sec",
+        "hook": "Quantitative Analyst at Stone Harbor Investment Partners",
+        "status": "Pending"
+      }
+    ],
+    "skipped": [],
+    "sent_count": 16,
+    "by_product": {
+      "pps": 4,
+      "cath": 4,
+      "op": 4,
+      "sec": 4
+    },
+    "blocked": false,
+    "warnings": [
+      "Booleans from file returned 'No results' on LinkedIn (too complex); used simplified keyword searches derived from them: 'Polymarket analyst', 'Director of Liturgy Catholic', 'social listening analyst Brandwatch', 'SEC EDGAR filings analyst', 'quantitative analyst alternative data equity' (US)."
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Yigit Guney",
+      "product": "gov",
+      "url": null,
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Yi Liu, CFA",
+      "product": "sec",
+      "url": "https://www.linkedin.com/in/yi-liu-cfa-a6817416/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Tom Rudovsky",
+      "product": "sec",
+      "url": "https://www.linkedin.com/in/tom-rudovsky-9aa1691a0/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "St Cyr Luttmer",
+      "product": "op",
+      "url": "https://www.linkedin.com/in/stcyrluttmer/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Sia Floyd",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/sia-floyd-anteantechnology",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Sheena Parker",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/sheenaparker",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Sarah Petit",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/sarah-petit-91534225",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Rodney Fuller",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/rodney-fuller-cissp-pmp-49b1018",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Rinkesh Dubey, CFA",
+      "product": "sec",
+      "url": "https://www.linkedin.com/in/rinkesh-dubey-cfa-25687a/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Renee A. McClennon",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/renee-mcclennon",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Phill Rinaldo",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/phillrinaldo",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Norm Andersson",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/norm-andersson",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Nicholas Sterba",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/nicholas-sterba-036199b5",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Nichelle Early",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/nichelleearly",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "Email required to connect (Send without a note unavailable); skipped without entering email"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Nancy Friend-Schnurpel, SPHR, ACC",
+      "product": "rr",
+      "url": "https://www.linkedin.com/in/nancy-friend-schnurpel/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Monte Newton",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/monte-newton-061a20360",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "Already Pending when opened"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Melissa De Jesus",
+      "product": "cath",
+      "url": "https://www.linkedin.com/in/melissa-dejesus/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Matthew Thai",
+      "product": "cath",
+      "url": "https://www.linkedin.com/in/matthew-thai/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Mari Kitamura",
+      "product": "op",
+      "url": "https://www.linkedin.com/in/marikitamura/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Madina Shaik",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/madina-shaik",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        },
+        {
+          "date": "2026-10-06",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Julie Jelonek, SHRM-SCP",
+      "product": "rr",
+      "url": "https://www.linkedin.com/in/juliejelonek/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Joseph Anderson",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/joseph-anderson-mba-ms-csm-mism-4a89293b",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Jon M Kjartansson",
+      "product": "sec",
+      "url": "https://www.linkedin.com/in/jonkjartansson/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Janis Garcia Keating",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/janis-garcia-keating-pmp-pmi-acp-safe-sa-9542b71",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Jana P.",
+      "product": "op",
+      "url": "https://www.linkedin.com/in/janaparshikova/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Helleni Moon",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/hellenimoon",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Gene Garcia",
+      "product": "cath",
+      "url": "https://www.linkedin.com/in/gene-garcia-5078559/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Gabe Wander",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/gabewander",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        },
+        {
+          "date": "2026-10-06",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Florian Moser",
+      "product": "pps",
+      "url": "https://www.linkedin.com/in/moser-florian/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Eronica Dew",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/eronicadew",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "No Connect option (3rd degree; only Follow/Message in More menu)"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Eileen Springer",
+      "product": "rr",
+      "url": "https://www.linkedin.com/in/eileen-springer/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "David Whitt",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/mrdavidrwhitt",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Dane Dungee",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/danedungee",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Craig Wilson",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/craig-wilson-004319a3",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Craig Mount",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/craigmount",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Clydea Perkins-Allaire",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/allairesconsulting",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Christopher Leatherman",
+      "product": "pps",
+      "url": "https://www.linkedin.com/in/christopher-leatherman/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Carlos Cintron",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/ccintron",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Brittany Wells",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/brittanywells",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "Profile URL redirected to LinkedIn 404 (not found)"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Bob Gallagher",
+      "product": "cath",
+      "url": "https://www.linkedin.com/in/bob-gallagher-097a4623/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Barbara A. Gray",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/barbara-gray-0357595",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Ari Perez",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/ari-perez",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "Already Pending when opened"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Anthony Inzalaco",
+      "product": "pps",
+      "url": "https://www.linkedin.com/in/anthony-inzalaco/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Andy F.",
+      "product": "op",
+      "url": "https://www.linkedin.com/in/andytflores/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Alexander Hirsch",
+      "product": "pps",
+      "url": "https://www.linkedin.com/in/alexander-hirsch-752218178/",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Aisha Niazi",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/aishaniazi",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Adriana Iglesias",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/adriana-iglesias-9884297",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Abhi Nagaraja",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/abhi-nagaraja-5b5118a3",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "Aaron Moak",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/aaron-moak-96bb1634",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-06",
+          "event": "skipped",
+          "reason": "Already Pending when re-opened (possibly sent by my script run that timed out right after clicking Send; not confirmed)"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-06"
+    },
+    {
+      "name": "William Dandridge",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/william-dandridge",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Sarah Fahden",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/sarahfahden",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "skipped",
+          "reason": "email required to connect (Send without a note disabled)"
+        }
+      ],
+      "last_event": "skipped",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Rupinder Yadav",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/rupinder-yadav-1a28551aa",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Monalisha Mishra",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/monalishamishra",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Matthew Grays",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/matthew-grays-14637053",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Kathy Chao",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/kathykchao",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Jeri Prophet",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/jeriprophet",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "J \u201cTech\u201d Risi III",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/joserisi",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Hannah Thomas",
+      "product": "gov",
+      "url": null,
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Gisela Ghani",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/gisela-ghani-2bb8845",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Eric Chan",
+      "product": "gov",
+      "url": null,
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Daniel Gavilan",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/danielgavilan786",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Aubrey Hinds",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/aubrey-hinds-275a914",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Amit Yadav",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/amit-yadav-techsur",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Al Sowers",
+      "product": "gov",
+      "url": "https://www.linkedin.com/in/al-sowers",
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-05",
+          "event": "blank_connect_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "blank_connect_sent",
+      "last_date": "2026-10-05"
+    },
+    {
+      "name": "Kathleen Hornik",
+      "product": "gov",
+      "url": null,
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-02",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-02"
+    },
+    {
+      "name": "Daniel Woosley",
+      "product": "gov",
+      "url": null,
+      "title": null,
+      "company": null,
+      "events": [
+        {
+          "date": "2026-10-02",
+          "event": "dm_sent",
+          "reason": null
+        }
+      ],
+      "last_event": "dm_sent",
+      "last_date": "2026-10-02"
+    }
+  ],
+  "totals": {
+    "unique_contacts": 66,
+    "dm_sent": 7,
+    "blank_connects_sent": 54,
+    "skips": 7,
+    "days_covered": [
+      "2026-10-02",
+      "2026-10-05",
+      "2026-10-06"
+    ]
+  },
+  "source_files": [
+    "as-blank-connect-batch-mixed-2026-10-06.json",
+    "as-blank-connect-results-mixed-2026-10-06.json",
+    "as-blank-connect-results-pps-cath-op-sec-2026-10-06.json",
+    "as-day-summary-2026-10-06.json",
+    "as-people-search-booleans-2026-10-06.json",
+    "as-prospects-found-2026-10-06.json",
+    "cath-wave1-drafts.json",
+    "cath-wave1-prospects.json",
+    "cath-wave1-results.json",
+    "gov-accept-check-results-2026-10-05.json",
+    "gov-accept-check-results-2026-10-06.json",
+    "gov-accept-dm-ready-2026-10-05.json",
+    "gov-accept-dm-ready-2026-10-06.json",
+    "gov-blank-connect-batch-2026-10-05.json",
+    "gov-blank-connect-batch-2026-10-06.json",
+    "gov-blank-connect-results-2026-10-05.json",
+    "gov-blank-connect-results-2026-10-06.json",
+    "gov-day-summary-2026-10-02.json",
+    "gov-day-summary-2026-10-05.json",
+    "gov-day-summary-2026-10-06.json",
+    "gov-dm-queue-round3-2026-10-02.json",
+    "gov-dm-queue-today-2026-10-02.json",
+    "gov-dm-queue-today-round2-2026-10-02.json",
+    "gov-dm-results-2026-10-02-round2.json",
+    "gov-dm-results-2026-10-02-round3.json",
+    "gov-dm-results-2026-10-02.json",
+    "gov-pending-accept-check-2026-10-05.json",
+    "gov-wave1-accept-check-2026-10-02.json",
+    "gov-wave1-drafts.json",
+    "gov-wave1-prospects.json",
+    "gov-wave1-results.json",
+    "op-wave1-drafts.json",
+    "op-wave1-prospects.json",
+    "op-wave1-results.json",
+    "prospects-2026-09-30.json",
+    "rr-wave1-drafts.json",
+    "rr-wave1-prospects.json"
+  ]
+}
