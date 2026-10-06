@@ -1,0 +1,277 @@
+{
+  "schema": "agentstructure.linkedin_outreach.v1",
+  "owner": "Reach",
+  "account": "Sean Morgan personal LinkedIn",
+  "company": "Agent Structure LLC",
+  "generated_at": "2026-10-06T14:55:25.978778-03:00",
+  "timezone": "America/Sao_Paulo",
+  "rules": {
+    "max_li_dms_per_day_per_account": 10,
+    "blank_connect_before_dm": true,
+    "skip_products": [
+      "c2c"
+    ],
+    "product_display_names": {
+      "gov": "GovContract Scout",
+      "pps": "Political Prediction Signals",
+      "op": "Opinion Pulse",
+      "cath": "Catholic Reminders",
+      "sec": "SEC Stock Signals",
+      "rr": "RoleRank",
+      "c2c": "Comment2Chat"
+    },
+    "host_urls": {
+      "gov": "https://govcontractfinder.grok.me",
+      "hub": "https://agentstructure.ai"
+    },
+    "publish": {
+      "repo": "agentstructure/linkedin-dashboard",
+      "metrics_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-metrics.json",
+      "feed_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-feed.json",
+      "contacts_raw": "https://raw.githubusercontent.com/agentstructure/linkedin-dashboard/main/linkedin-outreach-contacts.csv"
+    }
+  },
+  "latest_day": {
+    "date": "2026-10-06",
+    "scope": "all apps",
+    "dms_sent": [
+      "Yigit Guney",
+      "Gabe Wander",
+      "Madina Shaik"
+    ],
+    "dm_count": 3,
+    "dm_budget_remaining": 7,
+    "blank_connects": {
+      "gov_wave2_confirmed": 9,
+      "mixed_rr_gov": 15,
+      "pps_cath_op_sec": 16,
+      "by_product_last_wave": {
+        "pps": 4,
+        "cath": 4,
+        "op": 4,
+        "sec": 4
+      }
+    },
+    "product_rename": "GovContract Scout",
+    "notes": [
+      "Aaron/Ari/Monte may be +3 gov Pending uncounted",
+      "Rhea Booleans too complex for free LI search \u2014 simplified keywords worked"
+    ],
+    "next": "Accept-check Pending across products \u2192 Tess-style DMs with product-true names (GovContract Scout); \u226410/day"
+  },
+  "daily_totals": [
+    {
+      "date": "2026-10-02",
+      "dms": 2,
+      "blank_connects": 0,
+      "accepts": 0,
+      "skips": 0,
+      "by_product": {
+        "gov": {
+          "dms": 2,
+          "blank_connects": 0
+        }
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "dms": 2,
+      "blank_connects": 14,
+      "accepts": 0,
+      "skips": 1,
+      "by_product": {
+        "gov": {
+          "dms": 2,
+          "blank_connects": 14
+        }
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "dms": 3,
+      "blank_connects": 40,
+      "accepts": 0,
+      "skips": 6,
+      "by_product": {
+        "rr": {
+          "dms": 0,
+          "blank_connects": 3
+        },
+        "gov": {
+          "dms": 3,
+          "blank_connects": 21
+        },
+        "pps": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "cath": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "op": {
+          "dms": 0,
+          "blank_connects": 4
+        },
+        "sec": {
+          "dms": 0,
+          "blank_connects": 4
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Eileen Springer",
+      "url": "https://www.linkedin.com/in/eileen-springer/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Julie Jelonek, SHRM-SCP",
+      "url": "https://www.linkedin.com/in/juliejelonek/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "rr",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Nancy Friend-Schnurpel, SPHR, ACC",
+      "url": "https://www.linkedin.com/in/nancy-friend-schnurpel/",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Norm Andersson",
+      "url": "https://www.linkedin.com/in/norm-andersson",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Craig Mount",
+      "url": "https://www.linkedin.com/in/craigmount",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Sia Floyd",
+      "url": "https://www.linkedin.com/in/sia-floyd-anteantechnology",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Janis Garcia Keating",
+      "url": "https://www.linkedin.com/in/janis-garcia-keating-pmp-pmi-acp-safe-sa-9542b71",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Barbara A. Gray",
+      "url": "https://www.linkedin.com/in/barbara-gray-0357595",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Joseph Anderson",
+      "url": "https://www.linkedin.com/in/joseph-anderson-mba-ms-csm-mism-4a89293b",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Rodney Fuller",
+      "url": "https://www.linkedin.com/in/rodney-fuller-cissp-pmp-49b1018",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Nicholas Sterba",
+      "url": "https://www.linkedin.com/in/nicholas-sterba-036199b5",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Sarah Petit",
+      "url": "https://www.linkedin.com/in/sarah-petit-91534225",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Aisha Niazi",
+      "url": "https://www.linkedin.com/in/aishaniazi",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
+    {
+      "date": "2026-10-06",
+      "product": "gov",
+      "channel": "linkedin",
+      "event": "blank_connect_sent",
+      "contact": "Adriana Iglesias",
+      "url": "https://www.linkedin.com/in/adriana-iglesias-9884297",
+      "title": null,
+      "company": null,
+      "source": "as-blank-connect-results-mixed-2026-10-06.json"
+    },
