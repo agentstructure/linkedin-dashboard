@@ -2,7 +2,7 @@ name: Assemble feed
 on:
   push:
     paths:
-      - 'parts/feed.part*.txt'
+      - 'parts/feed.zlib.part*'
       - '.github/workflows/assemble-feed.yml'
   workflow_dispatch:
 permissions:
@@ -14,8 +14,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Assemble linkedin-outreach-feed.json
         run: |
-          cat parts/feed.part*.txt > linkedin-outreach-feed.json
-          python3 -c "import json; json.load(open('linkedin-outreach-feed.json')); print('valid json', open('linkedin-outreach-feed.json').seek(0) or open('linkedin-outreach-feed.json').tell() if False else __import__('pathlib').Path('linkedin-outreach-feed.json').stat().st_size)"
+          python3 - <<'PY'
+          import base64, pathlib, zlib, json
+          parts = sorted(pathlib.Path('parts').glob('feed.zlib.part*'))
+          b64 = ''.join(p.read_text().strip() for p in parts)
+          data = zlib.decompress(base64.b64decode(b64))
+          pathlib.Path('linkedin-outreach-feed.json').write_bytes(data)
+          json.loads(data)
+          print('wrote', len(data), 'bytes from', len(parts), 'parts')
+          PY
       - name: Commit assembled feed
         run: |
           git config user.name "AgentStructure.AI"
